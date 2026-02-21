@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panier - Boutique Élégance</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-top-content">
+          <p>Livraison gratuite à partir de 50HTG d'achat</p>
+          <p>Service client : 01 23 45 67 89</p>
+        </div>
+      </div>
+      <div class="header-main">
+        <a href="index.html" class="logo">Boutique<span>Élégance</span></a>
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="apropos.html">À Propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="connexion.html" class="icon-btn" title="Mon Compte">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </a>
+          <a href="#" class="icon-btn" title="Panier">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <div class="breadcrumb-content">
+        <ul class="breadcrumb-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li>Panier</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Cart Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title">Votre Panier</h1>
+          <p class="section-subtitle">3 articles dans votre panier</p>
+        </div>
+
+        <div class="cart-layout">
+          <!-- Cart Items -->
+          <div class="cart-items">
+            <!-- Item 1 -->
+            <div class="cart-item">
+              <div class="cart-item-image">
+                <img
+                  src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=200&h=200&fit=crop"
+                  alt="T-shirt Premium"
+                />
+              </div>
+              <div class="cart-item-details">
+                <h3>T-shirt Premium Coton</h3>
+                <p style="color: #7f8c8d; font-size: 0.875rem">
+                  Taille: M | Couleur: Noir
+                </p>
+                <p style="color: #27ae60; font-size: 0.875rem">En stock</p>
+              </div>
+              <div class="cart-item-quantity">
+                <button type="button">-</button>
+                <span>2</span>
+                <button type="button">+</button>
+              </div>
+              <div class="cart-item-price">
+                <p class="price">59,98HTG</p>
+                <p class="remove">Supprimer</p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="cart-item">
+              <div class="cart-item-image">
+                <img
+                  src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=200&h=200&fit=crop"
+                  alt="Montre Élégante"
+                />
+              </div>
+              <div class="cart-item-details">
+                <h3>Montre Élégante</h3>
+                <p style="color: #7f8c8d; font-size: 0.875rem">
+                  Couleur: Argent
+                </p>
+                <p style="color: #27ae60; font-size: 0.875rem">En stock</p>
+              </div>
+              <div class="cart-item-quantity">
+                <button type="button">-</button>
+                <span>1</span>
+                <button type="button">+</button>
+              </div>
+              <div class="cart-item-price">
+                <p class="price">149,99HTG</p>
+                <p class="remove">Supprimer</p>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="cart-item">
+              <div class="cart-item-image">
+                <img
+                  src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=200&h=200&fit=crop"
+                  alt="Sac à Dos"
+                />
+              </div>
+              <div class="cart-item-details">
+                <h3>Sac à Dos Urbain</h3>
+                <p style="color: #7f8c8d; font-size: 0.875rem">Couleur: Gris</p>
+                <p style="color: #27ae60; font-size: 0.875rem">En stock</p>
+              </div>
+              <div class="cart-item-quantity">
+                <button type="button">-</button>
+                <span>1</span>
+                <button type="button">+</button>
+              </div>
+              <div class="cart-item-price">
+                <p class="price">59,99HTG</p>
+                <p class="remove">Supprimer</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart Summary -->
+          <div class="cart-summary">
+            <h2>Récapitulatif</h2>
+
+            <div class="summary-row">
+              <span>Sous-total</span>
+              <span>269,96HTG</span>
+            </div>
+            <div class="summary-row">
+              <span>Livraison</span>
+              <span style="color: #27ae60">Gratuite</span>
+            </div>
+            <div class="summary-row">
+              <span>TVA (20%)</span>
+              <span>44,99HTG</span>
+            </div>
+            <div class="summary-row total">
+              <span>Total</span>
+              <span>269,96HTG</span>
+            </div>
+
+            <div class="cart-buttons">
+              <a href="commande.html" class="btn btn-primary btn-block btn-lg"
+                >Passer la commande</a
+              >
+            </div>
+
+            <div
+              style="
+                margin-top: 1.5rem;
+                padding-top: 1.5rem;
+                border-top: 1px solid #ecf0f1;
+              "
+            >
+              <p
+                style="
+                  color: #7f8c8d;
+                  font-size: 0.875rem;
+                  margin-bottom: 0.5rem;
+                "
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  style="vertical-align: middle; margin-right: 0.5rem"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 6v6l4 2"></path>
+                </svg>
+                Livraison estimée : 2-5 jours
+              </p>
+              <p style="color: #7f8c8d; font-size: 0.875rem">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  style="vertical-align: middle; margin-right: 0.5rem"
+                >
+                  <path
+                    d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                  ></path>
+                </svg>
+                Retour gratuit sous 30 jours
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payment Methods -->
+    <section class="section" style="background-color: white; padding: 2rem 0">
+      <div class="container">
+        <div style="text-align: center">
+          <p style="color: #7f8c8d; margin-bottom: 1rem">
+            Moyens de paiement acceptés
+          </p>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              gap: 1rem;
+              flex-wrap: wrap;
+            "
+          >
+            <div
+              style="
+                width: 60px;
+                height: 40px;
+                background: #f8f9fa;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.75rem;
+                font-weight: 600;
+                color: #2c3e50;
+              "
+            >
+              VISA
+            </div>
+            <div
+              style="
+                width: 60px;
+                height: 40px;
+                background: #f8f9fa;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.75rem;
+                font-weight: 600;
+                color: #2c3e50;
+              "
+            >
+              MC
+            </div>
+            <div
+              style="
+                width: 60px;
+                height: 40px;
+                background: #f8f9fa;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.75rem;
+                font-weight: 600;
+                color: #2c3e50;
+              "
+            >
+              AMEX
+            </div>
+            <div
+              style="
+                width: 60px;
+                height: 40px;
+                background: #f8f9fa;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.75rem;
+                font-weight: 600;
+                color: #2c3e50;
+              "
+            >
+              PayPal
+            </div>
+            <div
+              style="
+                width: 60px;
+                height: 40px;
+                background: #f8f9fa;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.75rem;
+                font-weight: 600;
+                color: #2c3e50;
+              "
+            >
+              Apple
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-column footer-about">
+          <h3>BoutiqueÉlégance</h3>
+          <p>
+            Votre destination privilégiée pour des produits de qualité. Nous
+            sélectionnons avec soin chaque article pour vous offrir le meilleur.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                ></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Liens Rapides</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="apropos.html">À Propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Catégories</h3>
+          <ul>
+            <li><a href="boutique.html">Mode</a></li>
+            <li><a href="boutique.html">Accessoires</a></li>
+            <li><a href="boutique.html">Électronique</a></li>
+            <li><a href="boutique.html">Maison</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <ul>
+            <li>123 Rue de la Mode</li>
+            <li>75001 Paris, France</li>
+            <li>01 23 45 67 89</li>
+            <li>contact@boutique-elegance.fr</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 BoutiqueÉlégance. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
